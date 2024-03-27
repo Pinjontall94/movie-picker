@@ -1,0 +1,7 @@
+.moviePicker {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
