@@ -1,22 +1,23 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <title>Movie Picker 🍿</title>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="images/favicon.ico" rel="icon" type="image/x-icon"/>
-        <script src="script.js" defer></script>
-    </head>
-    <body class="center">
-        <h1>Movie Picker 🍿</h1>
-
-        <form class="center">
-            <input name="movie" type="text"/>
-            <input type="submit" value="Add movie to the list."/>
-        </form>
-
-        <button id="yankBtn">Yank movie from list</button>
-        <ul id="movies"></ul>
-    </body>
+  <head>
+    <title>Movie Picker 🍿</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="styles.css" rel="stylesheet" />
+    <script src="script.js" async></script>
+  </head>
+  <body>
+    <article class="moviePicker">
+      <h1>Movie Picker 🍿</h1>
+      <form class="center">
+        <input name="movie" type="text" />
+        <input type="submit" value="Add movie to the list" />
+        <input id="yankBtn" type="button" value="Yank movie from list" />
+      </form>
+      <ul id="movies"></ul>
+    </article>
+  </body>
 </html>
